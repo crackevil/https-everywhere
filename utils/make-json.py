@@ -20,7 +20,7 @@ from ruleset_filenames_validate import validate_filenames
 # It's also helpful to ensure consistency for the lowercase check below.
 locale.setlocale(locale.LC_ALL, 'C')
 
-json_path = os.path.join(os.path.dirname(__file__), '../pkg/rulesets.json')
+json_path = os.path.join(os.path.dirname(__file__), *'../pkg/rulesets.json'.split('/'))
 
 json_output = {
     "rulesetStrings": [],
@@ -64,6 +64,9 @@ for fi in validate_filenames():
         # this rule will be added in the list.
         json_output["targets"][target].append(len(json_output["rulesetStrings"]))
     json_output["rulesetStrings"].append(etree.tostring(tree))
+
+if not os.path.exists(os.path.dirname(json_path)):
+	os.mkdir(os.path.dirname(json_path))
 
 with open(json_path, 'w') as f:
     f.write(json.dumps(json_output))
