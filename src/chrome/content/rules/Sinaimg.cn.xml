@@ -89,8 +89,8 @@
 	<target host="tvax3.sinaimg.cn" />
 	<target host="tvax4.sinaimg.cn" />
 	<target host="u1.sinaimg.cn" />
-	<target host="us.sinaimg.cn" />
-	<target host="mm.us.sinaimg.cn" />
+	<!--target host="us.sinaimg.cn" /-->
+	<!--target host="mm.us.sinaimg.cn" /-->
 	<target host="ws1.sinaimg.cn" />
 	<target host="ws2.sinaimg.cn" />
 	<target host="ws3.sinaimg.cn" />
