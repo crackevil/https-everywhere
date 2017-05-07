@@ -31,6 +31,8 @@
 	<target host="i7.imageban.ru" />
 	<target host="i8.imageban.ru" />
 	<target host="i9.imageban.ru" />
+	
+	<target host="*.fc2.com" />
 
 	<rule from="^http:"
 		to="https:" />
