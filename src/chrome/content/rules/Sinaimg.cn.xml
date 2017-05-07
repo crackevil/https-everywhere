@@ -24,7 +24,7 @@
 	<target host="d7.sinaimg.cn" />
 	<target host="d8.sinaimg.cn" />
 	<target host="d9.sinaimg.cn" />
-	<target host="h5.sinaimg.cn" />
+	<!--target host="h5.sinaimg.cn" /-->
 	<target host="i0.sinaimg.cn" />
 	<target host="i0s.sinaimg.cn" />
 	<target host="i1.sinaimg.cn" />
