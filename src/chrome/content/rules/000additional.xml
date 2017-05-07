@@ -1,0 +1,38 @@
+<ruleset name="000additional">
+
+	<target host="someimage.com" />
+	<target host="www.someimage.com" />
+	<target host="t1.someimage.com" />
+	<target host="i1.someimage.com" />
+	
+	<target host="*.map.gtimg.com" />
+	<target host="vv.video.qq.com" />
+	<target host="vm.gtimg.cn" />
+		<exclusion pattern="^http://vm\.gtimg\.cn/.+\.js" />
+	<target host="rcgi.video.qq.com" />
+	<target host="p.qpic.cn" />
+		<test url="http://p.qpic.cn/music_cover/hVUsfUFG2DV466URqw7PT06HzicL1d5EU56icHCGOqWSKYHxIsCSJoiag/300/" />
+	<target host="chinese.engadget.com" />
+	<target host="w.kakaocdn.net" />
+	<target host="www.uwants.com" />
+	<target host="n2.hk" />
+	<target host="img1.uploadhouse.com" />
+	<target host="img2.uploadhouse.com" />
+	<target host="img3.uploadhouse.com" />
+	<target host="img4.uploadhouse.com" />
+	<target host="img5.uploadhouse.com" />
+	
+	<target host="i1.imageban.ru" />
+	<target host="i2.imageban.ru" />
+	<target host="i3.imageban.ru" />
+	<target host="i4.imageban.ru" />
+	<target host="i5.imageban.ru" />
+	<target host="i6.imageban.ru" />
+	<target host="i7.imageban.ru" />
+	<target host="i8.imageban.ru" />
+	<target host="i9.imageban.ru" />
+
+	<rule from="^http:"
+		to="https:" />
+
+</ruleset>

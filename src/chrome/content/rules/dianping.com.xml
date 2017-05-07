@@ -33,7 +33,7 @@
 	<target host="mlog.dianping.com" />
 	<target host="nugget.dianping.com" />
 	<target host="s.dianping.com" />
-	<target host="t.dianping.com" />
+	<!--target host="t.dianping.com" /-->
 
 	<rule from="^http:" to="https:" />
 
