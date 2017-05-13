@@ -16,6 +16,7 @@
 	<target host="w.kakaocdn.net" />
 	<target host="www.uwants.com" />
 	<target host="n2.hk" />
+	<target host="crawling.zentora.net" />
 	<target host="img1.uploadhouse.com" />
 	<target host="img2.uploadhouse.com" />
 	<target host="img3.uploadhouse.com" />
@@ -36,5 +37,7 @@
 
 	<rule from="^http:"
 		to="https:" />
-
+	<target host="*.imgspice.com" />
+	<rule from="^http://(img\d\d\.imgspice\.com/.*)"
+		to="https://$1" />
 </ruleset>
