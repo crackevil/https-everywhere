@@ -34,6 +34,8 @@
 	<target host="i9.imageban.ru" />
 	
 	<target host="*.fc2.com" />
+	<target host="*.cdn.krcom.cn" />
+	<target host="image.vlook.cn" />
 
 	<rule from="^http:"
 		to="https:" />
