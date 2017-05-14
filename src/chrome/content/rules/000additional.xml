@@ -16,6 +16,7 @@
 	<target host="w.kakaocdn.net" />
 	<target host="www.uwants.com" />
 	<target host="n2.hk" />
+	<target host="wx.qlogo.cn" />
 	<target host="crawling.zentora.net" />
 	<target host="img1.uploadhouse.com" />
 	<target host="img2.uploadhouse.com" />
@@ -36,6 +37,10 @@
 	<target host="*.fc2.com" />
 	<target host="*.cdn.krcom.cn" />
 	<target host="image.vlook.cn" />
+	<exclusion pattern="^http://image.vlook.cn/flash/" />
+	<target host="img.vlook.cn" />
+	<target host="*.ntalker.com" />
+	<target host="*.app.meitudata.com" />
 
 	<rule from="^http:"
 		to="https:" />
