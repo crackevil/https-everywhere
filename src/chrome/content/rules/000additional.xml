@@ -48,6 +48,9 @@
 	<rule from="^http:"
 		to="https:" />
 	<target host="*.imgspice.com" />
-	<rule from="^http://(img\d\d\.imgspice\.com/.*)"
+	<rule from="^http://(img\d+\.imgspice\.com/.*)"
+		to="https://$1" />
+	<target host="*.imagetwist.com" />
+	<rule from="^http://(img\d+\.imagetwist\.com/.*)"
 		to="https://$1" />
 </ruleset>
