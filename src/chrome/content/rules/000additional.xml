@@ -34,6 +34,11 @@
 	<target host="i8.imageban.ru" />
 	<target host="i9.imageban.ru" />
 	
+	<target host="l.bst.126.net" />
+	<target host="lofter.ph.126.net" />
+	<target host="www.ifanr.com" />
+	<target host="cdn.ifanr.cn" />
+
 	<target host="*.fc2.com" />
 	<target host="*.t26.net" />
 	<target host="*.kn3.net" />
@@ -44,6 +49,9 @@
 	<target host="img.vlook.cn" />
 	<target host="*.ntalker.com" />
 	<target host="*.app.meitudata.com" />
+	<target host="*.hupu.com" />
+	<target host="*.hupuchina.com.cn" />
+	<target host="xoimg.co" />
 
 	<rule from="^http:"
 		to="https:" />
@@ -52,5 +60,11 @@
 		to="https://$1" />
 	<target host="*.imagetwist.com" />
 	<rule from="^http://(img\d+\.imagetwist\.com/.*)"
+		to="https://$1" />
+	<target host="*.showhaotu.pw" />
+	<rule from="^http://(img\d+\.showhaotu\.pw/.*)"
+		to="https://$1" />
+	<target host="*.showhaotu.club" />
+	<rule from="^http://(img\d+\.showhaotu\.club/.*)"
 		to="https://$1" />
 </ruleset>
