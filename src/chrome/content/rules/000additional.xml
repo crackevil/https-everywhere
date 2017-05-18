@@ -38,6 +38,9 @@
 	<target host="lofter.ph.126.net" />
 	<target host="www.ifanr.com" />
 	<target host="cdn.ifanr.cn" />
+	<target host="static.yizhibo.com" />
+	<target host="*.img.xiaoka.tv" />
+
 
 	<target host="*.fc2.com" />
 	<target host="*.t26.net" />
