@@ -55,6 +55,8 @@
 	<target host="*.hupu.com" />
 	<target host="*.hupuchina.com.cn" />
 	<target host="xoimg.co" />
+	<target host="img.s8bbs.com" />
+	
 
 	<rule from="^http:"
 		to="https:" />
@@ -69,5 +71,8 @@
 		to="https://$1" />
 	<target host="*.showhaotu.club" />
 	<rule from="^http://(img\d+\.showhaotu\.club/.*)"
+		to="https://$1" />
+	<target host="www.s9tu.com" />
+	<rule from="^http://(www\.s9tu\.com/images/.*)"
 		to="https://$1" />
 </ruleset>
