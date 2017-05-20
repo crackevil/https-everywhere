@@ -18,11 +18,7 @@
 	<target host="n2.hk" />
 	<target host="wx.qlogo.cn" />
 	<target host="crawling.zentora.net" />
-	<target host="img1.uploadhouse.com" />
-	<target host="img2.uploadhouse.com" />
-	<target host="img3.uploadhouse.com" />
-	<target host="img4.uploadhouse.com" />
-	<target host="img5.uploadhouse.com" />
+	<target host="*.gravatar.com" />
 	
 	<target host="i1.imageban.ru" />
 	<target host="i2.imageban.ru" />
@@ -56,23 +52,38 @@
 	<target host="*.hupuchina.com.cn" />
 	<target host="xoimg.co" />
 	<target host="img.s8bbs.com" />
-	
+	<target host="a.amap.com" />
+	<target host="aos-cdn-image.amap.com" />
+	<target host="store.is.autonavi.com" />
+	<target host="wscdn.miaopai.com" />
+	<target host="wsqncdn.miaopai.com" />
+	<target host="*.weforum.org" />
+	<target host="t66y.today" />
 
 	<rule from="^http:"
 		to="https:" />
 	<target host="*.imgspice.com" />
 	<rule from="^http://(img\d+\.imgspice\.com/.*)"
 		to="https://$1" />
-	<target host="*.imagetwist.com" />
+	<!--target host="*.imagetwist.com" />
 	<rule from="^http://(img\d+\.imagetwist\.com/.*)"
-		to="https://$1" />
+		to="https://$1" /-->
 	<target host="*.showhaotu.pw" />
 	<rule from="^http://(img\d+\.showhaotu\.pw/.*)"
 		to="https://$1" />
 	<target host="*.showhaotu.club" />
 	<rule from="^http://(img\d+\.showhaotu\.club/.*)"
 		to="https://$1" />
+	<target host="*.uploadhouse.com" />
+	<rule from="^http://(img\d+\.uploadhouse\.com/.*)"
+		to="https://$1" />
 	<target host="www.s9tu.com" />
 	<rule from="^http://(www\.s9tu\.com/images/.*)"
+		to="https://$1" />
+	<target host="upics.ru" />
+	<rule from="^http://(upics\.ru/images/.*)"
+		to="https://$1" />
+	<target host="1024image.com" />
+	<rule from="^http://(1024image\.com/images/.*)"
 		to="https://$1" />
 </ruleset>
