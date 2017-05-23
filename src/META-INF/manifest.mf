@@ -2,8 +2,8 @@ Manifest-Version: 1.0
 
 Name: install.rdf
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: dbChy2rj5rTuwf541H5AeA==
-SHA1-Digest: itOM99IP0bw2PjbMXMp+B793hY4=
+MD5-Digest: 4VnhUgbC3CSg73j1Sdy9UQ==
+SHA1-Digest: MNad0XB5AGdk4k5tBO/TN/gCQX0=
 
 Name: chrome.manifest
 Digest-Algorithms: MD5 SHA1
@@ -12,8 +12,8 @@ SHA1-Digest: Bhc67dKsPDaUhKWYKZqJDYj7Vjs=
 
 Name: Changelog
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: zoLGs1tPLxcrD1aPP32kIA==
-SHA1-Digest: WCkXPHcj8eVJhbMk4E7KxsYCmcY=
+MD5-Digest: E1Kl1TLSPdWf6375SVotNA==
+SHA1-Digest: /MFh7o1LAk3g7qL6FGFAR+zMUbk=
 
 Name: chrome/content/about.js
 Digest-Algorithms: MD5 SHA1
@@ -22,8 +22,8 @@ SHA1-Digest: LLBVoXQCCBga94313zUlZ11orfw=
 
 Name: chrome/content/about.xul
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: b5uHAvnjWCUj62lfBtB2BQ==
-SHA1-Digest: GCwDQgZ83eEnBOxpGXwwzaHKJB0=
+MD5-Digest: vxp631SBVeNLKxdEVGmE0A==
+SHA1-Digest: KPQ06KUYqNNOvC271NrwCP1nDrA=
 
 Name: chrome/content/meta-preferences.xul
 Digest-Algorithms: MD5 SHA1
@@ -52,8 +52,8 @@ SHA1-Digest: GSMCtGvcHTDq4BKI+kOzOggSBeY=
 
 Name: chrome/content/rulesets.json
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: Rinsn6gSzTLGMAYTyNBk5w==
-SHA1-Digest: NwDjp12Ss3U1iLaY3LAVEE6n7TE=
+MD5-Digest: +CK9+1ia5kkUERsOkAVrAA==
+SHA1-Digest: r+nIVmvhU7OpGF4JsKH8BhDnXRU=
 
 Name: chrome/content/toolbar_button.js
 Digest-Algorithms: MD5 SHA1
@@ -122,8 +122,8 @@ SHA1-Digest: id/qGgzRgxSXMMttuM2RKw+vpYY=
 
 Name: chrome/content/code/X509ChainWhitelist.js
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: VtXRA5R1YqdmIYNyCUo3Fw==
-SHA1-Digest: tBBk5lmSTJM8uCBENfbSAlBCMns=
+MD5-Digest: OonYHCSuoy37+TgxiIFvHg==
+SHA1-Digest: CebVvrq6CyE658TPD7ctNNwwxso=
 
 Name: chrome/locale/README.txt
 Digest-Algorithms: MD5 SHA1
@@ -762,18 +762,18 @@ SHA1-Digest: Ijz8la1nRxu5r+O6QbVZK3VSVaQ=
 
 Name: chrome/locale/eo/https-everywhere.dtd
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: CWZ4fTjmKPARK2Oj5TP/ig==
-SHA1-Digest: AgFqHwhPNTz8Umx6snjuaQsh7to=
+MD5-Digest: 1Mr9YkNTwUtN0MMF8xYPaA==
+SHA1-Digest: 8oyTzeNGhz9ssKzX/mI8q74ogrs=
 
 Name: chrome/locale/eo/https-everywhere.properties
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: ORk6XyNaD7T+K4RuJDf3sQ==
-SHA1-Digest: mjCpzGMj3I9uKIrAwUbzKjt/kgQ=
+MD5-Digest: 2XoPm+5f0SZOzKRHBI8+LQ==
+SHA1-Digest: Iwsh8QNdg7XdzlVkMgF7iw2fq/w=
 
 Name: chrome/locale/eo/ssl-observatory.dtd
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: 0soxl9J7jSJqthKSnVZgDA==
-SHA1-Digest: 0VLL/32gqWwCgrncTLnxhn3ZT8I=
+MD5-Digest: n2z7dvkZ6211TdAPNX+RYg==
+SHA1-Digest: kULfBoTjxo1aQlroleiTzRGcaDI=
 
 Name: chrome/locale/es/https-everywhere.dtd
 Digest-Algorithms: MD5 SHA1
@@ -792,8 +792,8 @@ SHA1-Digest: ZQfI/8gAabB8pwylWVjU8gmP1v0=
 
 Name: chrome/locale/es_AR/https-everywhere.dtd
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: ryA7u7dLam/sMmNzEQ2aww==
-SHA1-Digest: CB7WEQ1EG+W50JjueFVt1AkHmBc=
+MD5-Digest: 1NLIfrpylqsu2wvaASQLPQ==
+SHA1-Digest: 6iiitj0DWgDTM/XeaVnv8RxFTPA=
 
 Name: chrome/locale/es_AR/https-everywhere.properties
 Digest-Algorithms: MD5 SHA1
@@ -802,8 +802,8 @@ SHA1-Digest: tZPETRNxL06AyoL+1QvoL1EcdRw=
 
 Name: chrome/locale/es_AR/ssl-observatory.dtd
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: 0f5WCKHcM8tZoOc4qhu8+Q==
-SHA1-Digest: OFTdEDUMNNzxnzudTTDQrfJ3g1A=
+MD5-Digest: Gzt/GQ8IBHq/rN2GgV0aPw==
+SHA1-Digest: y7dWPMSq5SUWR0U3hbSwiIYUKlg=
 
 Name: chrome/locale/es_CL/https-everywhere.dtd
 Digest-Algorithms: MD5 SHA1
@@ -897,8 +897,8 @@ SHA1-Digest: aOp2ToPN/20aHh4K9cNEF9k9pes=
 
 Name: chrome/locale/fa/https-everywhere.dtd
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: pAPtdmLxS82lZFWNyYH3Cw==
-SHA1-Digest: tXAC0UoIT9MF9lTbjXh2AJOBZAc=
+MD5-Digest: B9sLOLwvjeU56SEuLwA4xQ==
+SHA1-Digest: WkdgExeXUo0YO1wFehvw1cgzmqI=
 
 Name: chrome/locale/fa/https-everywhere.properties
 Digest-Algorithms: MD5 SHA1
@@ -1777,8 +1777,8 @@ SHA1-Digest: xrBgVJCRqLeGb/wPIqZ7EdXqXgU=
 
 Name: chrome/locale/nb/https-everywhere.dtd
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: X/uobDKtdxPzNP8rXTeb4A==
-SHA1-Digest: GeNqXhZDwk4LB7MNiOb+k5OC4sY=
+MD5-Digest: cIUqpRgab/XdZ0esE1LT4A==
+SHA1-Digest: KC5VREHdBgzkIcB/2yxhtNYsCcM=
 
 Name: chrome/locale/nb/https-everywhere.properties
 Digest-Algorithms: MD5 SHA1
@@ -2307,8 +2307,8 @@ SHA1-Digest: z0+mAPBEyMiTUjTW3Wq/PW3Jubk=
 
 Name: chrome/locale/sr/https-everywhere.properties
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: 26AFP6txN4+E4cjCP7oGMg==
-SHA1-Digest: nxcEU6QYPfqsqqwajpxu9rV0lD8=
+MD5-Digest: ZIhqn52pYMLxNhWg/B6KUA==
+SHA1-Digest: ZKa0o1wlSmE+AbEIC3cl7AsZFgM=
 
 Name: chrome/locale/sr/ssl-observatory.dtd
 Digest-Algorithms: MD5 SHA1
@@ -2362,8 +2362,8 @@ SHA1-Digest: xrBgVJCRqLeGb/wPIqZ7EdXqXgU=
 
 Name: chrome/locale/sv/https-everywhere.dtd
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: 866OpwER96plRQBoxVhCpA==
-SHA1-Digest: IJ0xoT0KcTdB+0rFgBx1VFjxGBI=
+MD5-Digest: i4lwyBiJttoGfLwwGTnY6A==
+SHA1-Digest: hQ5gIgI0xGjYlNn+a9y1utfPVoA=
 
 Name: chrome/locale/sv/https-everywhere.properties
 Digest-Algorithms: MD5 SHA1
