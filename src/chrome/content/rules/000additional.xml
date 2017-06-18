@@ -19,6 +19,9 @@
 	<target host="wx.qlogo.cn" />
 	<target host="crawling.zentora.net" />
 	<target host="*.gravatar.com" />
+	<target host="video-api.wsj.com" />
+	<target host="timg.sjs.sinajs.cn" />
+	<target host="api.iclient.ifeng.com" />
 	
 	<target host="i1.imageban.ru" />
 	<target host="i2.imageban.ru" />
