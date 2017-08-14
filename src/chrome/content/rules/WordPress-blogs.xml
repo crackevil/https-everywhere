@@ -1,64 +1,16 @@
-<!--	for blogs which redirect from wordpress subdomain and which otherwise have no rules
-
-
-	Fully covered domains:
-
-		- blog.suitabletech.com
-		- life.time.com
-		- thepage.time.com
-
+<!--
+	For blogs which redirect from wordpress subdomain and which otherwise have no rules.
 -->
-<ruleset name="WordPress blogs" default_off="mismatched">
 
-	<target host="blog.bandcamp.com" />
+<ruleset name="WordPress blogs">
 	<target host="dictionaryblog.cambridge.org" />
 	<target host="news.efinancialcareers.com" />
-	<target host="emubrightfutures.org" />
-	<target host="www.emubrightfutures.org" />
 	<target host="blog.nanigans.com" />
 	<target host="blog.opengroup.org" />
 	<target host="magazine.redhat.com" />
 	<target host="blog.suitabletech.com" />
-	<target host="*.time.com" />
-	<target host="wordpress.tv" />
-	<target host="*.wordpress.tv" />
 
+	<securecookie host=".+" name=".+" />
 
-	<securecookie host="^dictionaryblog\.cambridge\.org$" name=".*" />
-
-
-	<rule from="^http://blog\.bandcamp\.com/"
-		to="https://blog.bandcamp.com/" />
-
-	<!--	ID: cambridgewords	-->
-	<rule from="^http://dictionaryblog\.cambridge\.org/"
-		to="https://dictionaryblog.cambridge.org/" />
-
-	<rule from="^http://news\.efinancialcareers\.com/"
-		to="https://news.efinancialcareers.com/" />
-
-	<rule from="^http://(?:www\.)?emubrightfutures\.org/"
-		to="https://emubrightfutures.org/" />
-
-	<rule from="^http://blog\.nanigans\.com/"
-		to="https://blog.nanigans.com/" />
-
-	<rule from="^http://blog\.opengroup\.org/"
-		to="https://blog.opengroup.org/" />
-
-	<rule from="^http://magazine\.redhat\.com/"
-		to="https://magazine.redhat.com/" />
-
-	<rule from="^http://blog\.suitabletech\.com/"
-		to="https://blog.suitabletech.com/" />
-
-	<rule from="^http://(business|entertainment|healthland|ideas|keepingscore|life|lightbox|nation|newsfeed|science|style|swampland|techland|thepage|world)\.time\.com/"
-		to="https://$1.time.com/" />
-
-	<rule from="^http://(?:www\.)?wordpress\.tv/"
-		to="https://wordpress.tv/" />
-
-	<rule from="^http://blog\.wordpress\.tv/"
-		to="https://blog.wordpress.tv/" />
-
+	<rule from="^http:" to="https:" />
 </ruleset>
