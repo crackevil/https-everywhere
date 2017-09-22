@@ -62,6 +62,8 @@
 	<target host="wsqncdn.miaopai.com" />
 	<target host="*.weforum.org" />
 	<target host="t66y.today" />
+	<target host="web.popo8.com" />
+	<target host="weibo.com" />
 
 	<rule from="^http:"
 		to="https:" />
